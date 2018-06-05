@@ -24,7 +24,7 @@
                 <p>Description: {{$packages[0]->description}}</p>
                 <p>Source Address: {{$packages[0]->source}}</p>
                 <p>Destination Address: {{$packages[0]->destination}}</p>
-                @endif
+                
             <br/>
             <br/>
             <br/>
@@ -45,6 +45,7 @@
                 @endforeach
                 </tbody>
             </table>
+            @endif
         </div>
     </div>
 @endsection
